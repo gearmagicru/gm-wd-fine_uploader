@@ -1,26 +1,7 @@
-# <img src="https://raw.githubusercontent.com/gearmagicru/gm-wd-fancybox/refs/heads/master/assets/images/icon.svg" width="64px" height="64px" align="absmiddle"> Виджет загрузчика "Fine Uploader"
+# <img src="https://github.com/gearmagicru/gm-wd-fine_uploader/blob/main/assets/images/icon.png?raw=true" width="64px" height="64px" align="absmiddle"> Виджет загрузчика "Fine Uploader"
 
 Загрузчик файлов Fine Uploader, поддерживает все основные браузеры и не требует Flash, jQuery или каких-либо внешних библиотек.
-
-## Пример применения
-### с менеджером виджетов:
-```
-$lightbox = Gm::$app->widgets->get('gm.wd.fancybox', ['width' => 600, 'height' => 400]);
-$lightbox->run();
-```
-### в шаблоне:
-```
-$this->widget('gm.wd.fancybox', ['width' => 600, 'height' => 400])->run();
-```
-### с namespace:
-```
-use Gm\Widget\Fancybox\Widget as Lightbox;
-Lightbox::widget(['width' => 600, 'height' => 400])->run();
-```
-если namespace ранее не добавлен в PSR, необходимо выполнить:
-```
-Gm::$loader->addPsr4('Gm\Widget\Fancybox\\', Gm::$app->modulePath . '/gm/gm.wd.fancybox/src');
-```
+Виджет применяется как на сайте, так и в Панели управления GM Panel.
 
 ## Установка
 
