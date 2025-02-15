@@ -1,13 +1,7 @@
 {
     "name": "gearmagicru/gm-wd-fine_uploader",
-    "description": "Site widget \"Fine Uploader\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "site",
-        "widget",
-        "fineuploader"
-    ],
+    "description": "Control Panel widget \"Fine Uploader\"",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-widget", "widget", "fineuploader"],
     "homepage": "https://apps.gearmagic.ru/component/gm-wd-fine_uploader",
     "type": "component",
     "license": "MIT",
